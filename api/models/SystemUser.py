@@ -1,6 +1,6 @@
 from sqlmodel import Field, Session, SQLModel
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, date
 from sqlalchemy import String, Column
 
 class SystemUser(SQLModel, table=True):
@@ -8,7 +8,7 @@ class SystemUser(SQLModel, table=True):
     typecode: str
     name: str
     password: Optional[str] = None
-    expirationdate: Optional[datetime] = Field(default_factory=datetime.now)
+    expirationdate: Optional[date] = Field(default_factory=datetime.now)
     graceloginleft: int = 5
     isactive: Optional[bool] = None
 

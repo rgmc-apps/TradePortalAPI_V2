@@ -1,0 +1,35 @@
+from sqlmodel import SQLModel, Field
+from sqlalchemy import Column, String, Integer, Float, DateTime
+from datetime import datetime
+
+class SMSKURequest(SQLModel, table=True):
+    colorcode: str = Field(default="", primary_key=True)
+    sizecode: str = Field(default="", primary_key=True)
+    vendorpartstockno: str = Field(default="", primary_key=True)
+    retailamount: float = Field(default=0, primary_key=True)
+
+    itemnumber: int = Field(default=0, sa_column=Column("ItemNumber", Integer))
+    vendorcode: str = Field(default="", sa_column=Column("VendorCode", String))
+    deptcode: str = Field(default="", sa_column=Column("DeptCode", String))
+    subdeptcode: str = Field(default="", sa_column=Column("SubDeptCode", String))
+    classcode: str = Field(default="", sa_column=Column("ClassCode", String))
+    subclasscode: str = Field(default="", sa_column=Column("SubClassCode", String))
+    brandcode: str = Field(default="", sa_column=Column("BrandCode", String))
+    description: str = Field(default="", sa_column=Column("Description", String))
+    barcode: str = Field(default="", sa_column=Column("BarCode", String))
+    margincode: str = Field(default="", sa_column=Column("MarginCode", String))
+    tagcode: str = Field(default="", sa_column=Column("TagCode", String))
+    backupdate: datetime = Field(default_factory=datetime.now, sa_column=Column("BackUpDate", DateTime))
+    sysdate: datetime = Field(default_factory=datetime.now, sa_column=Column("SysDate", DateTime))
+    smstockdesc: str = Field(default="", sa_column=Column("SMStockDesc", String))
+    smstockcode: str = Field(default="", sa_column=Column("SMStockCode", String))
+    saleitem: int = Field(default=0, sa_column=Column("SaleItem", Integer))
+    status: str = Field(default="", sa_column=Column("Status", String))
+    createdby: str = Field(default="", sa_column=Column("CreatedBy", String))
+    createdate: datetime = Field(default_factory=datetime.now, sa_column=Column("CreateDate", DateTime))
+    updateby: str = Field(default="", sa_column=Column("UpdateBy", String))
+    updatedate: datetime = Field(default_factory=datetime.now, sa_column=Column("UpdateDate", DateTime))
+    siteid: int = Field(default=-1, sa_column=Column("SiteId", Integer))
+    vendorbarcode: str = Field(default="", sa_column=Column("VendorBarcode", String))
+    oldbarcode: str = Field(default="", sa_column=Column("OldBarcode", String))
+    oldsmstoclcode: str = Field(default="", sa_column=Column("OldSMStoclCode", String))

@@ -4,21 +4,23 @@ from fastapi import FastAPI, HTTPException, status
 from db.dbconn import ConnHandlerMSSQL
 from sqlalchemy import text
 from api.models import SystemUser
+from api.routes import systemuser_router
 from sqlmodel import select, Session
 
 # from api.routes.address import address_routes
 
 LogHandler('activity-logs')
-logger = logging.getLogger('activity-logs')
-
-db = ConnHandlerMSSQL(logger)
-session = db.get_session()
-engine = db.get_engine()
 
 try:
+    logger = logging.getLogger('activity-logs')
+    
+    db = ConnHandlerMSSQL(logger)
+    session = db.get_session()
+    engine = db.get_engine()
+
     logger.info('Start Trade Portal API')
-    app = FastAPI(title="RGMC Trade Portal API")
-    # app.include_router(address_router)
+    app = FastAPI(title="RGMC Trade Portal API", version="1.0.0", openapi_url="/tradeportalapi.json")
+    app.include_router(systemuser_router)
     logger.info('Initialization Complete')
 except Exception as e:
     logger.error('Error on Initializing program. Details:{}'.format(e))
@@ -28,13 +30,11 @@ except Exception as e:
 def index():
     return {"status": "Api is running"}
 
-
-
 @app.get("/checkconn")
 def check_conn():
     curr_time = ''
     try:
-        result = session.execute(text("SELECT * from systemuser"))
+        result = session.execute(text("SELECT GETDATE()"))
         for row in result:
             print("Current time from SQL Server:", row[0])
             curr_time = row 

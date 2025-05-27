@@ -53,7 +53,7 @@ class LogHandler(object):
         self.__logger.error("Uncaught exception", exc_info=(exc_type,
                                                             exc_value,
                                                             exc_tb))
-
+        
     def get_string_logs(self):
         log_contents = self.__log_capture_string.getvalue()
         return str(log_contents).lower()

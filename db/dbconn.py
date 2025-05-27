@@ -13,9 +13,10 @@ class ConnHandlerMSSQL(object):
         return self.__engine
 
     def get_session(self):
-        self.__logger.info('Establishing Database Connection in {}'.format(DATABASE_URL))
+        self.__logger.info('Establishing Database Connection in {}'.format(DB_URL))
         try:
-            session = self.__SessionLocal()         
+            session = self.__SessionLocal()
+            self.__logger.info('Connection created successfully')  
             return session
         except Exception as e:
             self.__logger.error('Error In Establishing database Connection: {}'.format(e))

@@ -8,3 +8,5 @@ from .SMSize import SMSize
 from .SMPullOut import SMPullOut
 from .SMPullOutDetail import SMPullOutDetail
 from .SMSKU import SMSKU
+from .SMSKURequest import SMSKURequest
+from .SMSaleItemSKU import SMSaleItemSKU
