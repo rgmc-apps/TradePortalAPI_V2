@@ -1,0 +1,309 @@
+2025-05-22,16:54:28.293 | INFO | Start Address Book Api
+2025-05-22,16:54:28.293 | ERROR | Error on Initializing program. Details:name 'address_router' is not defined
+2025-05-22,16:58:54.310 | INFO | Start Address Book Api
+2025-05-22,16:58:54.311 | INFO | Initialization Complete
+2025-05-22,16:59:27.681 | INFO | Start Address Book Api
+2025-05-22,16:59:27.681 | INFO | Initialization Complete
+2025-05-22,17:00:07.687 | INFO | Start Address Book Api
+2025-05-22,17:00:07.687 | INFO | Initialization Complete
+2025-05-22,17:00:37.841 | INFO | Start Address Book Api
+2025-05-22,17:00:37.842 | INFO | Initialization Complete
+2025-05-22,17:00:37.848 | INFO | Start Address Book Api
+2025-05-22,17:00:37.848 | INFO | Initialization Complete
+2025-05-22,17:01:11.845 | INFO | Start Address Book Api
+2025-05-22,17:01:11.845 | INFO | Initialization Complete
+2025-05-22,17:02:05.425 | INFO | Start Address Book Api
+2025-05-22,17:02:05.426 | INFO | Initialization Complete
+2025-05-22,17:02:05.765 | INFO | Start Address Book Api
+2025-05-22,17:02:05.766 | INFO | Initialization Complete
+2025-05-22,17:03:15.847 | INFO | Start Address Book Api
+2025-05-22,17:03:15.848 | INFO | Initialization Complete
+2025-05-22,17:03:15.881 | INFO | Start Address Book Api
+2025-05-22,17:03:15.882 | INFO | Initialization Complete
+2025-05-22,17:03:37.914 | INFO | Start Address Book Api
+2025-05-22,17:03:37.915 | INFO | Initialization Complete
+2025-05-22,17:03:37.935 | INFO | Start Address Book Api
+2025-05-22,17:03:37.936 | INFO | Initialization Complete
+2025-05-22,17:03:50.545 | INFO | Start Address Book Api
+2025-05-22,17:03:50.546 | INFO | Initialization Complete
+2025-05-22,17:03:50.667 | INFO | Start Address Book Api
+2025-05-22,17:03:50.668 | INFO | Initialization Complete
+2025-05-22,17:06:20.263 | INFO | Start Address Book Api
+2025-05-22,17:06:20.264 | INFO | Start Address Book Api
+2025-05-22,17:06:20.264 | INFO | Initialization Complete
+2025-05-22,17:06:20.265 | INFO | Initialization Complete
+2025-05-22,17:07:02.363 | INFO | Start Address Book Api
+2025-05-22,17:07:02.364 | INFO | Initialization Complete
+2025-05-22,17:07:02.373 | INFO | Start Address Book Api
+2025-05-22,17:07:02.373 | INFO | Initialization Complete
+2025-05-22,17:09:16.777 | INFO | Start Address Book Api
+2025-05-22,17:09:16.779 | INFO | Initialization Complete
+2025-05-22,17:09:16.779 | INFO | Start Address Book Api
+2025-05-22,17:09:16.780 | INFO | Initialization Complete
+2025-05-22,17:09:39.365 | INFO | Start Address Book Api
+2025-05-22,17:09:39.365 | INFO | Start Address Book Api
+2025-05-22,17:09:39.366 | INFO | Initialization Complete
+2025-05-22,17:09:39.366 | INFO | Initialization Complete
+2025-05-22,17:22:28.992 | INFO | Start Address Book Api
+2025-05-22,17:22:28.993 | INFO | Initialization Complete
+2025-05-22,17:22:46.260 | INFO | Start Address Book Api
+2025-05-22,17:22:46.261 | INFO | Initialization Complete
+2025-05-22,17:23:43.467 | INFO | Start Address Book Api
+2025-05-22,17:23:43.468 | INFO | Initialization Complete
+2025-05-22,17:29:57.823 | INFO | Start Address Book Api
+2025-05-22,17:29:57.824 | INFO | Initialization Complete
+2025-05-22,17:32:13.950 | INFO | Start Address Book Api
+2025-05-22,17:32:13.951 | INFO | Initialization Complete
+2025-05-22,17:34:23.114 | INFO | Start Address Book Api
+2025-05-22,17:34:23.115 | INFO | Initialization Complete
+2025-05-22,18:09:03.271 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-22,18:09:03.272 | INFO | Start Address Book Api
+2025-05-22,18:09:03.273 | INFO | Initialization Complete
+2025-05-22,18:10:02.910 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-22,18:10:02.910 | INFO | Start Address Book Api
+2025-05-22,18:10:02.911 | INFO | Initialization Complete
+2025-05-22,18:11:42.514 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-22,18:11:42.515 | INFO | Start Address Book Api
+2025-05-22,18:11:42.516 | INFO | Initialization Complete
+2025-05-22,18:13:37.218 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-22,18:13:37.218 | INFO | Start Address Book Api
+2025-05-22,18:13:37.219 | INFO | Initialization Complete
+2025-05-27,08:38:00.275 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:38:00.276 | INFO | Start Address Book Api
+2025-05-27,08:38:00.276 | INFO | Initialization Complete
+2025-05-27,08:39:08.275 | ERROR | Error on Database connection
+2025-05-27,08:48:02.102 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:48:02.102 | INFO | Start Address Book Api
+2025-05-27,08:48:02.103 | INFO | Initialization Complete
+2025-05-27,08:48:21.836 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:48:21.836 | INFO | Start Address Book Api
+2025-05-27,08:48:21.837 | INFO | Initialization Complete
+2025-05-27,08:52:26.251 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:52:26.252 | INFO | Start Address Book Api
+2025-05-27,08:52:26.252 | INFO | Initialization Complete
+2025-05-27,08:52:41.336 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:52:41.336 | INFO | Start Address Book Api
+2025-05-27,08:52:41.336 | INFO | Initialization Complete
+2025-05-27,08:52:42.702 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:52:42.702 | INFO | Start Address Book Api
+2025-05-27,08:52:42.702 | INFO | Initialization Complete
+2025-05-27,08:53:35.934 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:53:35.934 | INFO | Start Address Book Api
+2025-05-27,08:53:35.935 | INFO | Initialization Complete
+2025-05-27,08:53:40.923 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:53:40.924 | INFO | Start Address Book Api
+2025-05-27,08:53:40.924 | INFO | Initialization Complete
+2025-05-27,08:53:42.293 | INFO | Establishing Database Connection in rgmcgroup.com
+2025-05-27,08:53:42.294 | INFO | Start Address Book Api
+2025-05-27,08:53:42.294 | INFO | Initialization Complete
+2025-05-27,08:54:10.099 | ERROR | Error on Database connection
+2025-05-27,09:00:37.560 | INFO | Establishing Database Connection in mssql+pyodbc://sa:@MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,09:00:37.561 | INFO | Start Address Book Api
+2025-05-27,09:00:37.561 | INFO | Initialization Complete
+2025-05-27,09:04:04.343 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,09:04:04.343 | INFO | Start Address Book Api
+2025-05-27,09:04:04.344 | INFO | Initialization Complete
+2025-05-27,09:04:05.662 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,09:04:05.663 | INFO | Start Address Book Api
+2025-05-27,09:04:05.664 | INFO | Initialization Complete
+2025-05-27,09:05:30.304 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,09:05:30.304 | INFO | Start Address Book Api
+2025-05-27,09:05:30.305 | INFO | Initialization Complete
+2025-05-27,09:05:44.741 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,09:05:44.742 | INFO | Start Address Book Api
+2025-05-27,09:05:44.743 | INFO | Initialization Complete
+2025-05-27,09:08:54.692 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,09:08:54.692 | INFO | Start Trade Portal API
+2025-05-27,09:08:54.693 | INFO | Initialization Complete
+2025-05-27,11:45:08.685 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:45:08.686 | INFO | Start Trade Portal API
+2025-05-27,11:45:08.686 | INFO | Initialization Complete
+2025-05-27,11:45:21.813 | ERROR | SystemUser - Error: Column expression, FROM clause, or other columns clause element expected, got <module 'api.models.SystemUser' from 'C:\\RGMC\\Source\\TradePortalAPI\\api\\models\\SystemUser.py'>.
+2025-05-27,11:49:40.589 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:49:40.589 | INFO | Start Trade Portal API
+2025-05-27,11:49:40.590 | INFO | Initialization Complete
+2025-05-27,11:50:08.771 | ERROR | SystemUser - Error: Column expression, FROM clause, or other columns clause element expected, got <module 'api.models.SystemUser' from 'C:\\RGMC\\Source\\TradePortalAPI\\api\\models\\SystemUser.py'>.
+2025-05-27,11:54:27.671 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:54:27.672 | INFO | Start Trade Portal API
+2025-05-27,11:54:27.672 | INFO | Initialization Complete
+2025-05-27,11:54:39.236 | ERROR | SystemUser - Error: 'Session' object has no attribute 'exec'
+2025-05-27,11:56:03.453 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:56:03.454 | INFO | Start Trade Portal API
+2025-05-27,11:56:03.454 | INFO | Initialization Complete
+2025-05-27,11:56:19.469 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:56:19.470 | INFO | Start Trade Portal API
+2025-05-27,11:56:19.470 | INFO | Initialization Complete
+2025-05-27,11:56:33.616 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:56:33.617 | INFO | Start Trade Portal API
+2025-05-27,11:56:33.617 | INFO | Initialization Complete
+2025-05-27,11:57:37.937 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:57:37.937 | INFO | Start Trade Portal API
+2025-05-27,11:57:37.938 | INFO | Initialization Complete
+2025-05-27,11:58:51.076 | ERROR | SystemUser - Error: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'is_active'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sec_code'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'type_code'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'expiration_date'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'grace_login_left'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'is_active'. (207)")
+[SQL: SELECT systemuser.sec_code, systemuser.type_code, systemuser.name, systemuser.password, systemuser.expiration_date, systemuser.grace_login_left, systemuser.is_active 
+FROM systemuser 
+WHERE systemuser.is_active = 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27,11:59:15.654 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:59:15.655 | INFO | Start Trade Portal API
+2025-05-27,11:59:15.655 | INFO | Initialization Complete
+2025-05-27,11:59:24.179 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,11:59:24.179 | INFO | Start Trade Portal API
+2025-05-27,11:59:24.180 | INFO | Initialization Complete
+2025-05-27,12:03:55.482 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,12:03:55.483 | INFO | Start Trade Portal API
+2025-05-27,12:03:55.483 | INFO | Initialization Complete
+2025-05-27,12:04:18.644 | ERROR | SystemUser - Error: is_active
+2025-05-27,12:04:26.949 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,12:04:26.950 | INFO | Start Trade Portal API
+2025-05-27,12:04:26.950 | INFO | Initialization Complete
+2025-05-27,12:04:33.057 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,12:04:33.058 | INFO | Start Trade Portal API
+2025-05-27,12:04:33.058 | INFO | Initialization Complete
+2025-05-27,12:06:10.540 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,12:06:10.540 | INFO | Start Trade Portal API
+2025-05-27,12:06:10.540 | INFO | Initialization Complete
+2025-05-27,13:18:52.193 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:18:52.193 | INFO | Start Trade Portal API
+2025-05-27,13:18:52.194 | INFO | Initialization Complete
+2025-05-27,13:20:45.801 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:20:45.801 | INFO | Start Trade Portal API
+2025-05-27,13:20:45.802 | INFO | Initialization Complete
+2025-05-27,13:34:22.419 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:34:22.420 | INFO | Start Trade Portal API
+2025-05-27,13:34:22.421 | INFO | Initialization Complete
+2025-05-27,13:34:38.329 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:34:38.329 | INFO | Start Trade Portal API
+2025-05-27,13:34:38.330 | INFO | Initialization Complete
+2025-05-27,13:35:32.271 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:35:32.271 | INFO | Start Trade Portal API
+2025-05-27,13:35:32.272 | INFO | Initialization Complete
+2025-05-27,13:35:41.332 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:35:41.333 | INFO | Start Trade Portal API
+2025-05-27,13:35:41.333 | INFO | Initialization Complete
+2025-05-27,13:38:33.297 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:38:33.297 | INFO | Start Trade Portal API
+2025-05-27,13:38:33.298 | INFO | Initialization Complete
+2025-05-27,13:40:34.401 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:40:34.401 | INFO | Start Trade Portal API
+2025-05-27,13:40:34.401 | INFO | Initialization Complete
+2025-05-27,13:40:43.981 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:40:43.981 | INFO | Start Trade Portal API
+2025-05-27,13:40:43.982 | INFO | Initialization Complete
+2025-05-27,13:40:45.283 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:40:45.283 | INFO | Start Trade Portal API
+2025-05-27,13:40:45.283 | INFO | Initialization Complete
+2025-05-27,13:41:15.513 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:41:15.513 | INFO | Start Trade Portal API
+2025-05-27,13:41:15.513 | INFO | Initialization Complete
+2025-05-27,13:42:28.406 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:42:28.406 | INFO | Start Trade Portal API
+2025-05-27,13:42:28.407 | INFO | Initialization Complete
+2025-05-27,13:42:45.294 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:42:45.295 | INFO | Start Trade Portal API
+2025-05-27,13:42:45.295 | INFO | Initialization Complete
+2025-05-27,13:44:17.011 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:44:17.012 | INFO | Start Trade Portal API
+2025-05-27,13:44:17.013 | INFO | Initialization Complete
+2025-05-27,13:44:19.670 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:44:19.670 | INFO | Start Trade Portal API
+2025-05-27,13:44:19.670 | INFO | Initialization Complete
+2025-05-27,13:44:49.663 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:44:49.664 | INFO | Start Trade Portal API
+2025-05-27,13:44:49.665 | INFO | Initialization Complete
+2025-05-27,13:47:41.967 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:47:41.968 | INFO | Start Trade Portal API
+2025-05-27,13:47:41.969 | INFO | Initialization Complete
+2025-05-27,13:47:49.204 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:47:49.204 | INFO | Start Trade Portal API
+2025-05-27,13:47:49.205 | INFO | Initialization Complete
+2025-05-27,13:47:51.482 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:47:51.482 | INFO | Start Trade Portal API
+2025-05-27,13:47:51.483 | INFO | Initialization Complete
+2025-05-27,13:48:33.553 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:48:33.554 | INFO | Start Trade Portal API
+2025-05-27,13:48:33.554 | INFO | Initialization Complete
+2025-05-27,13:49:15.075 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:49:15.076 | INFO | Start Trade Portal API
+2025-05-27,13:49:15.077 | INFO | Initialization Complete
+2025-05-27,13:54:44.657 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:54:44.658 | INFO | Start Trade Portal API
+2025-05-27,13:54:44.658 | INFO | Initialization Complete
+2025-05-27,13:59:42.291 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:59:42.292 | INFO | Start Trade Portal API
+2025-05-27,13:59:42.293 | INFO | Initialization Complete
+2025-05-27,13:59:48.192 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,13:59:48.192 | INFO | Start Trade Portal API
+2025-05-27,13:59:48.193 | INFO | Initialization Complete
+2025-05-27,14:03:53.053 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:03:53.054 | INFO | Start Trade Portal API
+2025-05-27,14:03:53.054 | INFO | Initialization Complete
+2025-05-27,14:04:38.590 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:04:38.590 | INFO | Start Trade Portal API
+2025-05-27,14:04:38.591 | INFO | Initialization Complete
+2025-05-27,14:05:44.588 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:05:44.589 | INFO | Start Trade Portal API
+2025-05-27,14:05:44.589 | INFO | Initialization Complete
+2025-05-27,14:06:15.838 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:06:15.839 | INFO | Start Trade Portal API
+2025-05-27,14:06:15.840 | INFO | Initialization Complete
+2025-05-27,14:07:25.785 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:07:25.785 | INFO | Start Trade Portal API
+2025-05-27,14:07:25.786 | INFO | Initialization Complete
+2025-05-27,14:08:12.784 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:08:12.786 | INFO | Start Trade Portal API
+2025-05-27,14:08:12.787 | INFO | Initialization Complete
+2025-05-27,14:08:20.615 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:08:20.616 | INFO | Start Trade Portal API
+2025-05-27,14:08:20.616 | INFO | Initialization Complete
+2025-05-27,14:08:49.802 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:08:49.802 | INFO | Start Trade Portal API
+2025-05-27,14:08:49.803 | INFO | Initialization Complete
+2025-05-27,14:10:12.462 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:10:12.463 | INFO | Start Trade Portal API
+2025-05-27,14:10:12.464 | INFO | Initialization Complete
+2025-05-27,14:10:53.621 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:10:53.621 | INFO | Start Trade Portal API
+2025-05-27,14:10:53.622 | INFO | Initialization Complete
+2025-05-27,14:12:03.319 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:12:03.320 | INFO | Start Trade Portal API
+2025-05-27,14:12:03.320 | INFO | Initialization Complete
+2025-05-27,14:13:02.860 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:13:02.861 | INFO | Start Trade Portal API
+2025-05-27,14:13:02.861 | INFO | Initialization Complete
+2025-05-27,14:14:24.214 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:14:24.214 | INFO | Start Trade Portal API
+2025-05-27,14:14:24.215 | INFO | Initialization Complete
+2025-05-27,14:23:40.849 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:23:40.850 | INFO | Start Trade Portal API
+2025-05-27,14:23:40.851 | INFO | Initialization Complete
+2025-05-27,14:25:31.996 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:25:31.996 | INFO | Start Trade Portal API
+2025-05-27,14:25:31.997 | INFO | Initialization Complete
+2025-05-27,14:27:49.790 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:27:49.791 | INFO | Start Trade Portal API
+2025-05-27,14:27:49.791 | INFO | Initialization Complete
+2025-05-27,14:35:47.841 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:35:47.841 | INFO | Start Trade Portal API
+2025-05-27,14:35:47.842 | INFO | Initialization Complete
+2025-05-27,14:40:38.815 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:40:38.815 | INFO | Start Trade Portal API
+2025-05-27,14:40:38.816 | INFO | Initialization Complete
+2025-05-27,14:40:42.157 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:40:42.158 | INFO | Start Trade Portal API
+2025-05-27,14:40:42.158 | INFO | Initialization Complete
+2025-05-27,14:42:14.488 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:42:14.488 | INFO | Start Trade Portal API
+2025-05-27,14:42:14.489 | INFO | Initialization Complete
+2025-05-27,14:43:07.826 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,14:43:07.826 | INFO | Start Trade Portal API
+2025-05-27,14:43:07.827 | INFO | Initialization Complete
+2025-05-27,15:01:46.755 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,15:01:46.756 | INFO | Start Trade Portal API
+2025-05-27,15:01:46.757 | INFO | Initialization Complete
+2025-05-27,15:02:09.338 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,15:02:09.338 | INFO | Start Trade Portal API
+2025-05-27,15:02:09.339 | INFO | Initialization Complete
+2025-05-27,15:02:31.871 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,15:02:31.871 | INFO | Start Trade Portal API
+2025-05-27,15:02:31.872 | INFO | Initialization Complete
