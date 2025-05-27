@@ -307,3 +307,6 @@ WHERE systemuser.is_active = 1]
 2025-05-27,15:02:31.871 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
 2025-05-27,15:02:31.871 | INFO | Start Trade Portal API
 2025-05-27,15:02:31.872 | INFO | Initialization Complete
+2025-05-27,15:02:44.375 | INFO | Establishing Database Connection in mssql+pyodbc://sa:%40MyRunway@rgmcgroup.com/RGMCTradePortalDB?driver=ODBC+Driver+17+for+SQL+Server
+2025-05-27,15:02:44.376 | INFO | Start Trade Portal API
+2025-05-27,15:02:44.377 | INFO | Initialization Complete
