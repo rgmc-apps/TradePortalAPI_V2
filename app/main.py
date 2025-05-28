@@ -1,26 +1,29 @@
 import logging
 from logger import LogHandler
+from datetime import datetime
 from fastapi import FastAPI, HTTPException, status
 from db.dbconn import ConnHandlerMSSQL
 from sqlalchemy import text
 from api.models import SystemUser
-from api.routes import systemuser_router
+from api.routes import (systemuser_router, 
+                        company_router,
+                        customer_router,
+                        store_router
+                        )
 from sqlmodel import select, Session
-
-# from api.routes.address import address_routes
 
 LogHandler('activity-logs')
 
 try:
     logger = logging.getLogger('activity-logs')
-    
+    logger.info('Start Trade Portal API: {}'.format(datetime.now().strftime("%Y-%m-%d %H:%M")))
     db = ConnHandlerMSSQL(logger)
-    session = db.get_session()
-    engine = db.get_engine()
-
-    logger.info('Start Trade Portal API')
-    app = FastAPI(title="RGMC Trade Portal API", version="1.0.0", openapi_url="/tradeportalapi.json")
+    db.initialize_conn()
+    app = FastAPI(title="RGMC Trade Portal API", version="1.0.0", openapi_url="/tradeportalapi.json", root_path='/api/v1')
     app.include_router(systemuser_router)
+    app.include_router(company_router)
+    app.include_router(customer_router)
+    app.include_router(store_router)
     logger.info('Initialization Complete')
 except Exception as e:
     logger.error('Error on Initializing program. Details:{}'.format(e))
@@ -34,6 +37,7 @@ def index():
 def check_conn():
     curr_time = ''
     try:
+        session = db.get_session()
         result = session.execute(text("SELECT GETDATE()"))
         for row in result:
             print("Current time from SQL Server:", row[0])
@@ -49,10 +53,10 @@ def check_conn():
 @app.get("/systemusers/get")
 def get_systemusers():
     try:
+        engine = db.get_engine()
         with Session(engine) as temp_session:
             query = select(SystemUser).where(SystemUser.isactive == True)
             data = temp_session.exec(query).all()
             return data
     except Exception as e:
         logger.error('SystemUser - Error: {}'.format(e))
-        

@@ -5,7 +5,7 @@ from datetime import datetime
 
 class Store(SQLModel, table=True):
 
-    storecode: Optional[str] = Field(default="", sa_column=Column("StoreCode", String))
+    storecode: Optional[str] = Field(default="", primary_key=True)
     name: Optional[str] = Field(default="", sa_column=Column("Name", String))
     name2: Optional[str] = Field(default="", sa_column=Column("Name2", String))
     storelocationcode: Optional[str] = Field(default="", sa_column=Column("StoreLocationCode", String))

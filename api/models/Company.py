@@ -12,7 +12,7 @@ class Company(SQLModel, table=True):
     tin: Optional[str] = ""
     remark: Optional[str] = ""
     isactive: bool = True
-    createdby: Optional[int] = -1
+    createby: Optional[int] = -1
     createdate: datetime = Field(default_factory=datetime.now)
     updateby: Optional[int] = -1
     updatedate: datetime = Field(default_factory=datetime.now)
