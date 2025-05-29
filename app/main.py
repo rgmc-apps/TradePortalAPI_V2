@@ -12,8 +12,13 @@ from api.routes import (systemuser_router,
                         brand_router
                         )
 from sqlmodel import select, Session
+from fastapi.middleware.cors import CORSMiddleware
 
 LogHandler('activity-logs')
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+]
 
 try:
     logger = logging.getLogger('activity-logs')
@@ -26,6 +31,13 @@ try:
     app.include_router(customer_router)
     app.include_router(store_router)
     app.include_router(brand_router)
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"]
+    )
     logger.info('Initialization Complete')
 except Exception as e:
     logger.error('Error on Initializing program. Details:{}'.format(e))
