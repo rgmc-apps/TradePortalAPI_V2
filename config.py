@@ -15,3 +15,4 @@ DATABASE_URL = (
 
 
 PASS_KEY = os.getenv('PASS_KEY')
+DEV_MODE = os.getenv('DEV_MODE', False)

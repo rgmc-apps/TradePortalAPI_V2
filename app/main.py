@@ -8,7 +8,8 @@ from api.models import SystemUser
 from api.routes import (systemuser_router, 
                         company_router,
                         customer_router,
-                        store_router
+                        store_router,
+                        brand_router
                         )
 from sqlmodel import select, Session
 
@@ -24,6 +25,7 @@ try:
     app.include_router(company_router)
     app.include_router(customer_router)
     app.include_router(store_router)
+    app.include_router(brand_router)
     logger.info('Initialization Complete')
 except Exception as e:
     logger.error('Error on Initializing program. Details:{}'.format(e))
@@ -37,12 +39,13 @@ def index():
 def check_conn():
     curr_time = ''
     try:
-        session = db.get_session()
-        result = session.execute(text("SELECT GETDATE()"))
-        for row in result:
-            print("Current time from SQL Server:", row[0])
-            curr_time = row 
-        return {"status": "Ok", "message": 'Connection Established: Database current time {}'.format(curr_time)}
+        engine = db.get_engine()
+        with Session(engine) as temp_session:
+            result = temp_session.exec(text("SELECT GETDATE()"))
+            for row in result:
+                print("Current time from SQL Server:", row[0])
+                curr_time = row 
+            return {"status": "Ok", "message": 'Connection Established: Database current time {}'.format(curr_time)}
     except Exception as e:
         logger.error('Error on Database connection')
         raise HTTPException(
