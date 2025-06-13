@@ -17,6 +17,7 @@ from fastapi.middleware.cors import CORSMiddleware
 LogHandler('activity-logs')
 origins = [
     "http://localhost",
+    "https://localhost",
     "http://localhost:8080",
 ]
 
