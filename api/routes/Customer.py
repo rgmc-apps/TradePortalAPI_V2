@@ -19,7 +19,7 @@ engine = db.get_engine()
 async def get_all_customers():
     try:
         with Session(engine) as temp_session:
-            query = select(Customer).where(Customer.isactive == True)
+            query = select(Customer).where(Customer.is_active == True)
             data = temp_session.exec(query).all()
 
             return data
