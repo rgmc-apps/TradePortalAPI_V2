@@ -15,11 +15,8 @@ from sqlmodel import select, Session
 from fastapi.middleware.cors import CORSMiddleware
 
 LogHandler('activity-logs')
-origins = [
-    "http://localhost",
-    "https://localhost",
-    "http://localhost:8080",
-]
+
+origins = ["*"]
 
 try:
     logger = logging.getLogger('activity-logs')
