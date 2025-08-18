@@ -9,7 +9,7 @@ class StockPullOutRequest(SQLModel, table=True):
     refnumber: str = Field(sa_column=Column("refNumber", String(50), primary_key=True))
     barcode: str = Field(sa_column=Column("barcode", String(20), primary_key=True))
     pulloutqty: int = Field(sa_column=Column("pullOutQty", Integer, nullable=False))
-    requeststatus: str = Field(sa_column=Column("requestStatus", String(20), nullable=False))
+    requeststatus: str = Field(sa_column=Column("requestStatus", String(20), nullable=False), default="NEW")
     stockpulloutid: int = Field(sa_column=Column("stockPullOutId", Integer, nullable=False))
     createby: str = Field(sa_column=Column("createBy", String(50), nullable=False))
     createdate: datetime.datetime = Field(sa_column=Column("createDate", DateTime, nullable=False))
