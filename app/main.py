@@ -9,7 +9,8 @@ from api.routes import (systemuser_router,
                         company_router,
                         customer_router,
                         store_router,
-                        brand_router
+                        brand_router,
+                        stockpullout_router
                         )
 from sqlmodel import select, Session
 from fastapi.middleware.cors import CORSMiddleware
@@ -29,6 +30,7 @@ try:
     app.include_router(customer_router)
     app.include_router(store_router)
     app.include_router(brand_router)
+    app.include_router(stockpullout_router)
     app.add_middleware(
         CORSMiddleware,
         allow_origins=origins,
