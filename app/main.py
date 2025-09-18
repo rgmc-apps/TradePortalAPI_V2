@@ -14,6 +14,7 @@ from api.routes import (systemuser_router,
                         )
 from sqlmodel import select, Session
 from fastapi.middleware.cors import CORSMiddleware
+from config import DB_URL, DB_NAME
 
 LogHandler('activity-logs')
 
@@ -57,7 +58,7 @@ def check_conn():
             for row in result:
                 print("Current time from SQL Server:", row[0])
                 curr_time = row 
-            return {"status": "Ok", "message": 'Connection Established: Database current time {}'.format(curr_time)}
+            return {"status": "Ok", "message": 'Connection Established ({} || {}): Database current time {}'.format(DB_URL, DB_NAME, curr_time)}
     except Exception as e:
         logger.error('Error on Database connection')
         raise HTTPException(
@@ -75,3 +76,9 @@ def get_systemusers():
             return data
     except Exception as e:
         logger.error('SystemUser - Error: {}'.format(e))
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail='Error on getting systemusers data: {}'.format(e)
+        )
+
+
